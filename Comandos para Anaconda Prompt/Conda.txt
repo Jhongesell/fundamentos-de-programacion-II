@@ -1,0 +1,46 @@
+conda --version
+conda update conda
+
+CREAR ENTORNO VIRTUAL:
+conda create --name pandas_tuto
+conda create --name snowflakes biopython
+
+CREAR UN ENTORNO VIRTUAL CON UN INTERPRETE PY ESPECÍFICO:
+conda create --name snakes python=3.5
+
+MOSTRAR LA LISTA DE ENTORNOS VIRTUALES:
+conda info --envs
+
+ACTIVAR ENTORNO VIRTUAL BASE:
+conda activate
+
+ACTIVAR ENTORNOS VIRTUALES:
+conda activate snowflakes
+
+DESACTIVAR ENTORNO VIRTUAL:
+conda deactivate
+
+CONSULTAR LA VERSIÓN DEL INTERPRETE DE PYTHON:
+python --version
+
+BUSCAR UN PAQUETE ESPECÍFICO:
+conda search beautifulsoup4
+
+INSTALAR UN PAQUETE:
+conda install beautifulsoup4
+
+LISTAR LOS PAQUETES INSTALADOS:
+conda list
+
+ACTUALIZAR TODAS LAS LIBRERÍAS:
+conda update --all
+
+ELIMINAR UN ENTORNO VIRTUAL:
+conda remove --name pandas_tuto --all
+
+INSTALAR QT DESIGNER5:
+pip3 install PyQt5-tools
+pip3 install pyinstaller
+
+NAVEGAR EN DIRECTORIO CMD:
+CD C:\Users\carlos\pruebas\d1
